@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ReactPro"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "curso html"
+	}
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <from>
+        <label for="Nombre">Nombre:</label>
+        <input type="text"
+                value=""
+                placeholder="nombre"
+                name="nombre"
+                id="nombre"
+                maxlength="15"
+                minlength="3"
+                required><br>
+        <label for="email">Email:</label>
+        <input type="email" required><br>
+        <label for="password">password:</label>
+        <input type="password"
+                id="password"
+                maxlength="10"
+                minlength="5"
+                required><br>
+        <input type="button" value="pulsar">
+        <button>Pulsame</button><br>
+        <label for="condiciones">Acepta las condiciones?</label>
+        <input type="checkbox" id="Condiciones"><br>
+
+        <input type="color">
+        <input type="date"><br>
+        <input type="file">
+        <input type="hidden"><br>
+        <input type="month"><br>
+        
+        <Label for="estado">Estado:</Label>
+        <input type="radio" name="estado" value="casado">casado
+        <input type="radio" name="estado" value="soltero"> soltero
+        <br><br>
+        <label for="peces">Peces</label>
+        <select name="peces" id="">
+            <optgroup label="mediterraneo">
+                <option value="sargo">sargo</option>
+                <option value="dorada">dorada</option>
+                <option value="denton">denton</option>
+            </optgroup>
+            <optgroup label="atlantico">
+                <option value="salmon">salmon</option>
+                <option value="merluza">merluza</option>
+                <option value="rape">rape</option>
+
+            </optgroup>
+        </select><br>
+        <input type="submit">
+
+    </from>
+</body>
+</html>

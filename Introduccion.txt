@@ -1,0 +1,11 @@
+Curso de Html
+
+
+1. Lenguaje de Marcado
+2. HTML Hyper Terxt Markup Language
+3. Da la estructura a nuestro sitio web
+4. No es un lenguaje de programacion
+5. <!DOCTYPE html> es la etiquera raiz del documento y nos indica que estamos
+   trabajando con un archivo html
+6. Su sintaxis es por medio de elementos qque se representan por medio de etiquetas
+   de apertura y de cierre <h1>Soy una pagina</h1>
